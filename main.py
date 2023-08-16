@@ -13,6 +13,7 @@ for i in range(0, len(question_bank)):
     question_text = game.ask_question()
     answer = input(question_text)
     result= game.check_answer(answer)
+
     if result:
         print("Answer is correct")
     else:
